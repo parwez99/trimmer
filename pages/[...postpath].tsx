@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					https://hairtrimmers.in//, '/') + encodeURI(path as string)
+				    https://hairtrimmers.in//, '/') + encodeURI(path as string)
 				}`,
 			},
 		};
